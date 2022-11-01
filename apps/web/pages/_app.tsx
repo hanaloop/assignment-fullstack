@@ -1,0 +1,12 @@
+import 'tailwindcss/tailwind.css'
+import '../styles/globals.css'
+import type { AppProps } from 'next/app'
+
+import React from 'react';
+
+export default function MyApp({ Component, pageProps }: AppProps) {
+  const AnyComponent = Component as any;
+
+  return <AnyComponent {...pageProps} />
+}
+

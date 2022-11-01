@@ -14,7 +14,7 @@ export class ClimatixController {
     };
   }
 
-  @Post('/addActivity')
+  @Post('/activities')
   async addActivity(@Req() req: any, @Body() data: ActivityDataDto): Promise<ActivityDataDto> {
     // TODO implement the actual logic
     return data;
