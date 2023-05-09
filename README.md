@@ -8,6 +8,9 @@ HanaLoop's mission is to help organizations to take effective and efficient clim
 
 Aligned with the mission, the assignment for the candidate is to create a simple web-app that calculates greenhouse gas emissions given activity data.
 
+> If you are well-versed develooper, the estimated time of completion is about half-day.
+> If you are front-end developer, feel free to use (Mock Service Worker)[https://mswjs.io/] to mock server, and leave server implementation blank.
+
 ## Super short crash-course on carbon accounting 
 
 Carbon accounting is the process used to measure how much carbon dioxide equivalents an organization emits.
