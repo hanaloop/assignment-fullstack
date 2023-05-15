@@ -47,12 +47,13 @@ Below is the specification of the features,
 
 ### Evaluation
 
-The code will be evaluated according the following criteria:
+The code will be evaluated according the following criteria (in that order):
 
-1. Correctness - First and foremost, the application should run correctly.
-2. Readability - How easy it is to understand the code. Keep a balance between simplicity and robustness.
-3. Reliability - The code should guard against common errors/exceptions.
-4. Proper testing - Unit, Integration tests well implemented.
+1. Correctness - First and foremost, the application should run correctly, no major showstopper.
+2. Usability (UX) - How intuitive the UI is, with aesthetics.
+3. Readability - How easy it is to understand the code. Keep a balance between simplicity and robustness.
+4. Reliability - The code should guard against common errors/exceptions.
+5. Proper testing - Unit, Integration tests well implemented.
 
 Extra points:
 - Code comments explaining possible improvement. E.g. 
@@ -73,7 +74,7 @@ Extra points:
 
 ## The skeleton code
 
-The technology stack is [Nextjs](https://nextjs.org/) for web application and [Nestjs](https://nestjs.com/) for server application.
+The technology stack is [Nextjs](https://nextjs.org/) with [Tailwind](https://tailwindcss.com/) for web application and [Nestjs](https://nestjs.com/) for server application.
 
 The project code base is a monorepo based on [turborepo](https://turbo.build/).
 
